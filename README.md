@@ -9,7 +9,7 @@ Please see the corresponding sections below for details.
 
 ## I. Adding the meta-mm5d91-kernel layer to your build
 * git chackout scarthgap
-* Run 'bitbake-layers add-layer meta-mm5d91-kernel'
+* Run 'bitbake-layers add-layer meta-mm5d91-kernel' in your build folder. See https://github.com/parcnu/mm5d91-yocto-main/tree/scarthgap
 * remove all links from \<path to your yocto main source folder>/meta-mm5d91-module/recipes-mm5d91-module/mm5d91-module/files/
 
 ### Link files:
